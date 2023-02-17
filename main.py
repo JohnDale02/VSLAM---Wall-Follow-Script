@@ -63,22 +63,7 @@ for each_robot in robot_data:  # for each robot Model
     all_min_outside = []
     all_min_inside = []
 
-    #if each_robot['Ready?'] != "yes":   # If not ready to be analyzed, continue
-    #if each_robot['Robot'] != 'Roborock s7 MaxV':
-    #if each_robot['Robot'] != 'Roomba Combo j7':
-    #if each_robot['Robot'] != 'Roomba j7':
-    #if each_robot['Robot'] != 'Roomba s9':
-    #if each_robot['Robot'] != 'Ecovacs Deebot Turbo X1':
-    #if each_robot['Robot'] != 'Shark AI Ultra 2-in-1':
-    #if each_robot['Robot'] != 'Shark AI Ultra':
-    #if each_robot['Robot'] != 'Roomba i3':
-    #if each_robot['Robot'] != 'Roborock s7 Plus':
-    #if each_robot['Robot'] != 'Roomba i7 w Lapis':
-    #if each_robot['Robot'] != 'Samsung JetBot AI+':
-    #if each_robot['Robot'] != '600 series':
-    #if each_robot['Robot'] != 'Ecovacs N8+':
-    #if each_robot['Robot'] != 'Ecovacs N8 Pro':
-    if each_robot['Robot'] != 'Shark VACMOP Pro':
+    if each_robot['Ready?'] != "yes":   # If not ready to be analyzed, continue
 
         
 
